@@ -1,25 +1,11 @@
-## Getting Started
-
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
-
-## Folder Structure
-
-The workspace contains two folders by default, where:
-
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
-
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
-
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
-
-## Dependency Management
-
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
-echo "# java" >>
-git init
-git add README.md
-git commit -m "first commit"
-git branch -M main
-git remote add origin https://github.com/sazzadkhann/java.git
-git push -u origin main
+public class product {
+     public static void main(String[] args) {
+     int id = 101;
+     String title = "iphone15";
+     int priceA = 1895;
+     String priceB="euros";
+     String description = "perfect product with best image quality";
+     String category = "phone";
+     System.out.println(id+", "+title+", "+priceA+priceB+", "+description+", "+category);
+  }
+}
